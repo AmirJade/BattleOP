@@ -21,7 +21,26 @@
                     <next>
                       <block type="movement_reverse" id="166">
                         <next>
-                          <block type="movement_stop" id="225"></block>
+                          <block type="robot_delay" id="242" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="266">
+                                <field name="NUM">1000</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="controls_whileUntil" id="322" inline="false">
+                                <field name="MODE">UNTIL</field>
+                                <value name="NUMBER">
+                                  <block type="math_number" id="345">
+                                    <field name="NUM">10000</field>
+                                  </block>
+                                </value>
+                                <statement name="DO">
+                                  <block type="movement_forward" id="364"></block>
+                                </statement>
+                              </block>
+                            </next>
+                          </block>
                         </next>
                       </block>
                     </next>
