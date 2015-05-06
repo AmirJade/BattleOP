@@ -41,6 +41,11 @@
                                 <next>
                                   <block type="comment_comment" id="376">
                                     <field name="TEXT">LALALA</field>
+                                    <next>
+                                      <block type="multimedia_playwav" id="383">
+                                        <field name="WAV">RAWR</field>
+                                      </block>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
