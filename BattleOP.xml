@@ -19,7 +19,11 @@
                 <next>
                   <block type="movement_forward" id="146">
                     <next>
-                      <block type="movement_reverse" id="166"></block>
+                      <block type="movement_reverse" id="166">
+                        <next>
+                          <block type="movement_stop" id="225"></block>
+                        </next>
+                      </block>
                     </next>
                   </block>
                 </next>
