@@ -38,6 +38,11 @@
                                 <statement name="DO">
                                   <block type="movement_forward" id="364"></block>
                                 </statement>
+                                <next>
+                                  <block type="comment_comment" id="376">
+                                    <field name="TEXT">LALALA</field>
+                                  </block>
+                                </next>
                               </block>
                             </next>
                           </block>
